@@ -22,7 +22,7 @@ body{
 }
 
 header{
-    height: 150px;
+    height: 180px;
     color: white;
     text-align: center;
     background-image: linear-gradient(to bottom, black, #236b1d );
@@ -34,13 +34,14 @@ header h1{
 }
 
 header h2{
+    margin-bottom: 20px;
     max-height: 100px;
     font-size: 1.3em;
     font-weight: lighter;
 }
 
 nav{
-    min-width: 150px;
+    
     background-color: var(--cor5);
     color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.333);
@@ -53,6 +54,7 @@ nav a{
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 nav a:hover {
@@ -124,6 +126,7 @@ aside ul{
     padding: 5px; 
     list-style-;
 }
+
 .fim{
     padding: 10px 25px;
     background-color: transparent;
